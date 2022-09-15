@@ -4,7 +4,7 @@ const handleMessage= (message,colors)=>{
     document.getElementById('displayMessage').style.color = colors;
     setTimeout(function(){
        document.getElementById("displayMessage").innerHTML = '';
-    }, 10000);
+    }, 100000);
 }
 
 //add customer
